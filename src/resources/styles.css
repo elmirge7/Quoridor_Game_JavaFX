@@ -1,0 +1,21 @@
+/* Style CSS pour l'écran titre d'un jeu d'arcade */
+
+/* Classe de l'arrière-plan du jeu */
+.game_background {
+    -fx-background-color: black;
+}
+
+/* Classe des boutons d'arcade */
+.arcade_button {
+    -fx-background-color: #FF0000;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20;
+}
+
+.arcade_button:hover {
+    -fx-background-color: #FF3333;
+}
+
+.arcade_button:pressed {
+    -fx-background-color: #FF6666;
+}
